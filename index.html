@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>To Do List</h1>
+    </header>
+    <main>
+        <div class="add-list">
+            <input type="text" name="" placeholder="escreva aqui " id="add-input">
+            <button class="add-btn">
+                Adicionar
+            </button>
+        </div>
+        <div class="list">
+            <table>
+                <tr class="list-head">
+                    <th>
+                        Fazer
+                    </th>
+                    <th>
+                        importância
+                    </th>
+                    <th>
+                        
+                    </th>
+                </tr>
+                <tr class="list-content">
+                    <td class="add-text">
+                      <input type="checkbox" name="" class="check-list">  Default
+                    </td>
+                    <td>
+                        <select name="importância" class="impotancia">
+                            <option value="5">Muito alta</option>
+                            <option value="4">alta</option>
+                            <option value="3">media</option>
+                            <option value="2">baixa</option>
+                            <option value="1">muito baixa</option>
+                        </select>
+                    </td>
+                    <td class="delet">
+                        <abbr title="excluir"><img src="icon/lixeira.svg" alt="excluir"></abbr>
+                    </td>
+                </tr>
+                
+            </table>
+
+        </div>
+        <div class="check"><input type="checkbox" name="" id="check"> Salvar itens em cache? <a class="remove">Remover itens do cache</a></div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
